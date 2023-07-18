@@ -1,2 +1,2 @@
 # React
-Study React partially
+230718 - React dnd
