@@ -1,13 +1,13 @@
 import './App.css';
-import Time from './components/Timer/Timer';
+import Timer from './components/Timer/Timer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
           <h1>Hi</h1>
-          <Time/>
-          <Time/>
+          <Timer/>
+          
       </header>
     </div>
   );

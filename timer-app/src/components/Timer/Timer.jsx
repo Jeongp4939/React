@@ -1,13 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 import "./styles.css";
 
-const Time = () => {
+const Timer = () => {
   //컴포넌트는 useState 훅을 사용하여 min, sec 두 개의 상태 변수 정의
   const [hour, setHour] = useState(0);
   const [min, setMin] = useState(0);
   const [sec, setSec] = useState(30);
   const time = useRef(3600); // useRef hook time 변수 생성, 초 단위로 5분
-  const timerId = useRef(null); // 간격 타이머의 Id 저장
+  const timerId = useRef(null); // 간격 타이머의 Id 저장(null값)
   
   const [StartFlag, setStartFlag] = useState(false); // 버튼을 누를때만 작동
 
@@ -54,4 +54,4 @@ const Time = () => {
   );
 };
 
-export default Time;
+export default Timer;
